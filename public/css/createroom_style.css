@@ -1,0 +1,66 @@
+body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    overflow-y: auto;
+  }
+
+
+h1 {
+    position: relative;
+    text-align: center;
+    top: 12vh;
+}
+
+h2{
+    position: relative;
+    text-align: center;
+    top: 18vh;
+    font-size: 2.7vh;
+}
+
+
+form{
+    position: relative;
+    top: 14vh;
+}
+
+.form-floating {
+    margin: 0 auto;
+    margin-top: 1.5%;
+    width: 20%;
+}
+
+
+.back_button {
+    position: absolute;
+    left: 0;
+    top: 2vh;
+}
+
+
+.type_button {
+    position: relative;
+    align-items: center;
+    top: 20vh;
+    margin: 1%;
+    width: 10%;
+    height: 8vh;
+}
+
+.button_group {
+    /* margin-top: 10%; */
+    /* margin-left: 5%; */
+    text-align: center;
+}
+
+.create_button {
+    position: relative;
+    align-items: center;
+    top: 20vh;
+    margin: 1%;
+    width: 16vw;
+    height: 16vh;
+    font-size: 3.8vh;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <title>NO TIME TO LANGLAE TIC TAC TOE</title>
+    <link rel="stylesheet" href="./css/createroom_style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <a href="mainMenu.html"><button type="button" class="btn btn-danger back_button">Back</button></a>
+        <h1>Create Room</h1>
+        <label id="Owner-play-as-O">Create Of this Room will play as Player-O</label>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Room Name</label>
+                <input type="name" class="form-control" id="getRoomN" placeholder="Enter Your Room Name" id="getRoomN">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Room Password</label>
+                <input type="name" class="form-control" placeholder="Password" id="getRoomP">
+            </div> 
+            <label>หมวดหมู่คำถามในการเล่น</label>
+            <select class="form-select" aria-label="Default select example" id="qcategory">
+                <option selected>เลือกประเภทของคำถาม</option>
+                <option value="ประวัติศาสตร์">ประวัติศาสตร์</option>
+                <option value="ภาพยนตร์">ภาพยนตร์</option>
+                <option value="ศิลปะ">ศิลปะ</option>
+                <option value="ศิลปินโลก">ศิลปินโลก</option>
+            </select>
+            <button type="reset" class="btn btn-primary" id="addRoom_from_Owner" >Create Room</button>
+
+        </form>
+        <!-- <button type="button" class="btn btn-warning create_button">สร้างห้อง</button>  -->
+    </div>
+    <script src="./js/setupFirebase.js"></script>
+    <script src="./js/insert_Room.js"></script>
+    <script src="./js/auth.js"></script>
+</body>
+
+</html>

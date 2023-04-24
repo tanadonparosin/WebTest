@@ -1,0 +1,62 @@
+body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Kodchasan', sans-serif;
+    overflow-y: auto;
+}
+
+.title_container {
+    width: 100vw;
+    height: 100%;
+}
+
+.login_container{
+    width: 50%;
+    height: 100%;
+}
+
+.title {
+    top: 6vw;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.login_box {
+    position: relative;
+    text-align: center;
+    top: 10vw;
+    width: 100%;
+    margin: auto;
+}
+
+.login_google{
+    position: relative;
+    margin-top: 2%;
+}
+
+.text_title {
+    font-size: 2vw;
+}
+
+.text1 {
+    font-size: 1.3vw;
+    margin-top: 2%;
+}
+/* 
+label {
+    margin: 10px;
+} */
+
+.form-group {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.form-floating {
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 50%;
+}
+
